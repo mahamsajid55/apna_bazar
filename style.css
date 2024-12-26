@@ -2,6 +2,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
+    /* General Reset */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #888282;
+    
+}
+
+/* Header Styling */
+header {
+    background-color: #817474; /* Dark background for contrast */
+    color: white;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.header-top .logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.welcome-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.welcome-text h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.welcome-text p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.shop-now {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shop-now:hover {
+    background-color: darkorange;
+}
 
 /* Header Styles for a Smaller Header */
 .hero {
@@ -43,18 +109,7 @@
     background-color: #e5533d;
 }
 
- header div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(114, 76, 150);
-    color: rgb(248, 240, 240);
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    font-size: 15px;
-}
+ 
 header nav ul li{
               margin-left: 15px;
 }
@@ -66,7 +121,7 @@ header nav ul li a {
               transition: all 0.3s ease;
 }
  header nav ul li a:hover{
-              background-color: rgb(137, 137, 177);
+              background-color: rgb(121, 93, 145);
  }
 
  header .cart a{
@@ -74,13 +129,15 @@ header nav ul li a {
        font-size: 1rem;
        text-decoration: none;
        padding: 5px 10px;
-       background-color: rgb(47, 47, 58);
+       background-color: rgb(91, 91, 99);
        border-radius: 10px;
        transition: all 0.3s ease;
+      align-items: center;
  }
  header .cart a:hover{
-       background-color: rgb(195, 145, 236);
+       background-color: rgb(170, 152, 184);
        color: rgb(242, 252, 252);
+
  }
 
 
@@ -147,7 +204,7 @@ header {
 
 
 /* Products Section */
-.products {
+ .products {
     padding: 50px 20px;
     text-align: center;
 }
@@ -170,6 +227,7 @@ header {
     justify-content: center;
     align-items: stretch;
 }
+
 
 /* Product Box */
 .product-box {
@@ -247,11 +305,89 @@ header {
     color: #333;
 }
 
+/* Store Locator Section */
+.store-locator {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.store-locator h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.store-locator p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Map Container */
+.map-container {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contact-us h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-us p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Contact Form */
+.contact-form {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #ff6347;
+    color: white;
+    font-size: 1
+
  
   /* footer section*/
 
   footer {
-      background-color: #333;
       color: white;
       padding: 20px 0;
       text-align: center;
