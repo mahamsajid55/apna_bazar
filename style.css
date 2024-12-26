@@ -198,32 +198,11 @@ header {
          outline: lightgrey;
          border-color: rgb(108, 109, 110);
  }
-  
- @media (max-width: 768px) 
-
-
- 
-  /* footer section*/
-
-  footer {
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-      position: relative;
-      width: 100%;
+  img{
+    height: 720px;
   }
+img{
+    opacity: 1000%;
+}
 
-footer p {
-      margin-bottom: 10px;
-  }
-  footer ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      padding: 0;
-  }
-  
-footer ul li {
-      margin-left: 20px;
-  }
-
+ @media (max-width: 768px)

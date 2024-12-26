@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    /* General Reset */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #888282;
+    
+}
+
+/* Header Styling */
+header {
+    background-color: #817474; /* Dark background for contrast */
+    color: white;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.header-top .logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.welcome-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.welcome-text h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.welcome-text p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.shop-now {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shop-now:hover {
+    background-color: darkorange;
+}
+
+header {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Float the logo to the left */
+header img {
+    width: 150px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+/* Style the navigation */
+header nav ul {
+    list-style: none;
+    display: inline-flex; 
+}
+
+header nav ul li {
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.search-input{
+     padding: 8px 12px;
+     font-size: 14px;
+     border: 1px solid lightblue;
+     border-radius: 5px;
+     width: 200px;
+}
+.search-button{
+    padding: 8px 16px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color 0.3ease;
+}
+.search-button:hover{
+     background-color: rgb(119, 118, 116);
+}
+.search-form input:focus{
+       outline: lightgrey;
+       border-color: rgb(108, 109, 110);
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contact-us h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-us p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Contact Form */
+.contact-form {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #ff6347;
+    color: white;
+    font-size: 1
+}
