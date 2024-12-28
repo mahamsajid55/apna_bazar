@@ -71,8 +71,6 @@ header {
 
 /* Header Styles for a Smaller Header */
 .hero {
-    background: url('rb_2150818713.png') no-repeat center center/cover; 
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,23 +122,6 @@ header nav ul li a {
               background-color: rgb(121, 93, 145);
  }
 
- header .cart a{
-       color: white;
-       font-size: 1rem;
-       text-decoration: none;
-       padding: 5px 10px;
-       background-color: rgb(91, 91, 99);
-       border-radius: 10px;
-       transition: all 0.3s ease;
-      align-items: center;
- }
- header .cart a:hover{
-       background-color: rgb(170, 152, 184);
-       color: rgb(242, 252, 252);
-
- }
-
-
   /* Ensure the header takes up the full width */
 header {
       width: 100%;
@@ -170,6 +151,48 @@ header {
       color: white;
       text-decoration: none;
   }
+
+  /* Search Bar Styling */
+.search-bar {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.search-bar input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar .category-links {
+    margin-top: 10px;
+}
+
+.search-bar .category-links a {
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #007BFF;
+}
+
+.search-bar .category-links a:hover {
+    text-decoration: underline;
+}
+
   .search-form {
       display: flex;
       margin-left: 50px;
@@ -179,7 +202,7 @@ header {
        font-size: 14px;
        border: 1px solid lightblue;
        border-radius: 5px;
-       width: 200px;
+
   }
  .search-button{
       padding: 8px 16px;
@@ -188,7 +211,6 @@ header {
       border: none;
       cursor: pointer;
       margin-left: 8px;
-      transition: background-color 0.3ease;
  }
  .search-button:hover{
        background-color: rgb(119, 118, 116);
@@ -209,5 +231,23 @@ footer{
     background-color: white;
     text-align: center;
 }
+
+header .cart a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: rgb(91, 91, 99);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+   align-items: center;
+}
+header .cart a:hover{
+    background-color: rgb(170, 152, 184);
+    color: rgb(242, 252, 252);
+
+}
+
+
 
  @media (max-width: 768px)
